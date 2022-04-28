@@ -58,7 +58,7 @@ wget -O - https://bin.entware.net/x64-k3.2/installer/generic.sh | /bin/sh
 vi /etc/systemd/system/udpxy.service
 ```
 
-* 按i进入编辑模式，键入以下内容
+* 按`I`进入编辑模式，键入以下内容
 ```bash
 [Unit]
 Description=UDPXY daemon, IPTV stream relay and proxy.
@@ -73,7 +73,7 @@ ExecStart=/opt/bin/udpxy -p 4022 -B 1Mb -c 5 -T
 WantedBy=multi-user.target
 ```
 
-* 按esc，键入`:wq`退出
+* 按`ESC`，键入`:wq`退出
 
 3.设置系统启动时运行服务
 ```bash
