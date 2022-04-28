@@ -48,7 +48,7 @@ wget -O - https://bin.entware.net/x64-k3.2/installer/generic.sh | /bin/sh
 /opt/bin/opkg update
 ```
 
-## 安装UDPXY并设置为开机启动
+## 安装UDPXY并设置为自动启动
 
 1. 安装UDPXY
 ```bash
