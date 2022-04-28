@@ -25,10 +25,6 @@ ln -s /volume1/@Entware/opt/ /
 wget -O - https://bin.entware.net/aarch64-k3.10/installer/generic.sh | /bin/sh
 ```
 * for armv5
-```bash
-wget -O - https://bin.entware.net/armv5sf-k3.2/installer/generic.sh | /bin/sh
-```
-* for armv5
  ```bash
 wget -O - https://bin.entware.net/armv7sf-k3.2/installer/generic.sh | /bin/sh
 ```
