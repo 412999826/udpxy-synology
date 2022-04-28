@@ -73,6 +73,8 @@ ExecStart=/opt/bin/udpxy -p 4022 -B 1Mb -c 5 -T
 WantedBy=multi-user.target
 ```
 
+* 按esc，键入`:wq`退出
+
 3.设置系统启动时运行服务
 ```bash
 systemctl enable udpxy
