@@ -75,7 +75,7 @@ WantedBy=multi-user.target
 
 * 按`ESC`，键入`:wq`退出
 
-3. 立即运行udpxy并设置系统启动时运行
+3. 立即运行并设置系统启动时运行
 ```bash
 systemctl start udpxy
 systemctl enable udpxy
