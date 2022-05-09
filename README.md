@@ -11,8 +11,7 @@
 mkdir -p /volume1/@Entware/opt
 ```
 
-2. 创建optware文件夹`/opt`
-确保文件夹是空的（即未安装optware）
+2. 删除`/opt`文件夹并创建链接
 ```bash
 rm -rf /opt
 ln -s /volume1/@Entware/opt/ /
